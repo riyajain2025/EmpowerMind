@@ -1,0 +1,119 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+
+/* Style for the header and navigation */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #3498db; /* Blue */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff7f50; /* Orange */
+}
+
+
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff7f50; /* Orange */
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e74c3c; /* Darker Orange */
+}
+
+/* Style for the other sections */
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Style for service cards */
+.service-card {
+    background-color: #f9f9f9; /* Light Gray */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the contact form */
+form {
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+ul {
+    list-style-type: decimal; /* Use numbers for list items */
+    padding-left: 20px; /* Adjust the left padding as needed */
+}
+
+li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
